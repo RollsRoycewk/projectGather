@@ -1,0 +1,75 @@
+#indexContainer .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20rpx;
+}
+#indexContainer .header .logo {
+  width: 140rpx;
+  height: 40rpx;
+  margin: 0 20rpx;
+}
+#indexContainer .header .search_div {
+  position: relative;
+  background: #ededed;
+  height: 60rpx;
+  border-radius: 10rpx;
+  padding-left: 65rpx;
+}
+#indexContainer .header .search_div .iconfont {
+  position: absolute;
+  left: 20rpx;
+  top: 25%;
+}
+#indexContainer .header .search_div input {
+  height: 100%;
+}
+#indexContainer .header .search_div input .search_text {
+  text-align: center;
+  font-size: 24rpx;
+  text-indent: -60rpx;
+}
+#indexContainer .header .btn {
+  width: 144rpx;
+  height: 60rpx;
+  font-size: 24rpx;
+  text-align: center;
+  color: #b4282d;
+  line-height: 60rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  margin: 0 20rpx;
+}
+#indexContainer .navScroll {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  height: 80rpx;
+}
+#indexContainer .navScroll .navItem {
+  display: inline-block;
+  font-size: 28rpx;
+  margin: 0 10rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 140rpx;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#indexContainer .navScroll .navItem.active {
+  border-bottom: 1rpx solid #bb2c08;
+}
+#indexContainer .recommendScroll {
+  height: calc(100vh - 160rpx);
+}
+
